@@ -1,0 +1,38 @@
+#items {
+    article {
+        picture {
+            width: 100%;
+            //width: 100px;
+        }
+        p {
+            width: 85%;
+        }
+        img {
+            width: 100%;
+            //width: 100px;
+            height: 500px;
+            /*object-fit: contain;*/
+            object-fit: cover;
+            @include mobile {
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.panel.panel-product {
+    .panel-body {
+        padding: 0;
+    }
+    picture {
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

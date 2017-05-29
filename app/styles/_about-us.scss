@@ -1,37 +1,16 @@
 #about-us {
-    video {
-        width: 80%;
-    }
-    @include tablet {
-        width: 100%;
-        padding: 0;
-        .row {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+    .home {
+        background-image: url("../assets/img/banner.png");
+        background-position: fixed;
+        height: 550px;
+        .title {
+            text-align: center;
         }
-        .col-6 {
-            width: 80%;
+    }
+    .funcy-options {
+        margin-top: 20px;
+        h3 {
             text-align: center;
         }
     }
 }
-
-// #about-us video {
-//     width: 80%;
-// }
-// @media all and (max-width: 960px) {
-//     #about-us {
-//         width: 100%;
-//         padding: 0;
-//     }
-//     #about-us .row {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//     }
-//     #about-us .col-6 {
-//         width: 80%;
-//         text-align: center;
-//     }
-// }

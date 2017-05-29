@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
 
     var appConfig = {
-        hostname: '0.0.0.0',
+        hostname: '127.0.0.1',
         dist: 'dist',
         app: 'app',
         port: grunt.option('port') || 9000,
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     open: true,
-                    base: ['.tmp', '.', 'app']
+                    base: ['.tmp', 'bower_components/', '.', 'app']
                 }
             },
             dist: {
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
             },
             html: {
                 files: ['<%= appConfig.app %>/**/*.html'],
-                tasks: ['includeSource:server', 'processhtml:server']
+                tasks: ['includeSource:server']
             },
             livereload: {
                 options: {
@@ -75,7 +75,8 @@ module.exports = function(grunt) {
         wiredep: {
             app: {
                 src: [
-                    '<%= appConfig.app %>/index.html'
+                    '<%= appConfig.app %>/index.html',
+                    '<%= appConfig.app %>/about.html'
                 ],
                 ignorePath: /\.\.\//
             },
@@ -91,12 +92,14 @@ module.exports = function(grunt) {
             },
             server: {
                 files: {
-                    '.tmp/index.html': '<%= appConfig.app %>/index.html'
+                    '.tmp/index.html': '<%= appConfig.app %>/index.html',
+                    '.tmp/about.html': '<%= appConfig.app %>/about.html'
                 }
             },
             dist: {
                 files: {
-                    '<%= appConfig.dist %>/index.html': '<%= appConfig.app %>/index.html'
+                    '<%= appConfig.dist %>/index.html': '<%= appConfig.app %>/index.html',
+                    '<%= appConfig.dist %>/about.html': '<%= appConfig.app %>/about.html'
                 }
             }
         },
@@ -247,7 +250,7 @@ module.exports = function(grunt) {
         }
 
         grunt.task.run([
-            'clean:server',
+            'clean:dist',
             'wiredep',
             'includeSource:server',
             'sass',
