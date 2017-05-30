@@ -12,6 +12,18 @@
         h3 {
             text-align: center;
         }
-        .funcy-features {}
+        .funcy-features {
+            article {
+                text-align: center;
+                img {
+                    // text-align: center;
+                    width: 60%;
+                    height: 200px;
+                }
+                h4 {
+                    font-weight: bold;
+                }
+            }
+        }
     }
 }

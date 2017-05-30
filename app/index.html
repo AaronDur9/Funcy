@@ -75,51 +75,64 @@
     </nav>
 
 
-    <main class="container row">
+    <main class="container">
+
+        <div class="row">
 
 
-        <section class="col-md-3">
-            <header>TRENDING</header>
-            <ul>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>D</li>
-            </ul>
-        </section>
+            <section id="panel-left" class="col-md-3">
+                <header>TRENDING</header>
+                <ul>
+
+                    <li> <span class="glyphicon glyphicon-screenshot"></span> A</li>
+                    <li><span class="glyphicon glyphicon-screenshot"></span>B</li>
+                    <li><span class="glyphicon glyphicon-screenshot"></span>C</li>
+                    <li><span class="glyphicon glyphicon-screenshot"></span>D</li>
+                </ul>
+            </section>
 
 
 
-        <section id="items" class="col-md-5">
-            <div class="panel panel-default panel-product">
-                <div class="panel-body">
-                    <picture>
-                        <source srcset="http://dummyimage.com/300x300/cccccc/ffffff.png&text=a" media="(max-width: 350px)">
-                        <source srcset="http://dummyimage.com/600x600/cccccc/ffffff.png&text=a" media="(min-width: 351px) and (max-width: 650px)">
-                        <img src="http://dummyimage.com/900x900/cccccc/ffffff.png&text=a" draggable="false" alt="Item">
-                    </picture>
-                </div>
-                <div class="panel-footer">
-                    <div class="title">
-                        <p>Lorem ipsum dolor sit.</p>
-                        <button class="btn btn-primary">1231</button>
+            <section id="items" class="col-md-5">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <picture>
+                            <source srcset="http://dummyimage.com/300x300/cccccc/ffffff.png&text=a" media="(max-width: 350px)">
+                            <source srcset="http://dummyimage.com/600x600/cccccc/ffffff.png&text=a" media="(min-width: 351px) and (max-width: 650px)">
+                            <img src="http://dummyimage.com/900x900/cccccc/ffffff.png&text=a" draggable="false" alt="Item">
+                        </picture>
                     </div>
-                    <div class="subtitle">
-                        <button class="btn btn-default">12312</button>
+                    <div class="panel-footer">
+                        <div class="title">
+                            <p>Lorem ipsum dolor sit.</p>
+                            <button class="btn btn-primary">1231</button>
+                        </div>
+                        <div class="subtitle">
+                            <button class="btn btn-default">12312</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
-        </section>
-        <section id="sidebar-right" class="col-md-4 panel">
-            <p>Derecha</p>
-            <p>Derecha</p>
-            <p>Derecha</p>
-            <p>Derecha</p>
-            <p>Derecha</p>
-            <p>Derecha</p>
-        </section>
+            </section>
+            <section id="sidebar-right" class="col-md-4 panel">
+                <div class="row">
+                    <h6 class="col-xs-12">Funcy es more fun with friends</h6>
+                    <p class="col-xs-12">Log in to see what your friends are up to</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <button class="btn fb-btn">Log in with Facebook</button>
+                    </div>
+                    <div class="col-xs-12">
+                        <button class="btn tw-btn">Log in with Twitter</button>
+                    </div>
+
+
+                </div>
+            </section>
+
+        </div>
     </main>
     <footer id="footer" class="container-fluid footer">
         <div class="row">

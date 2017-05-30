@@ -4,17 +4,23 @@
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+@import 'main-page';
 @import 'items';
 @import 'about-us';
 // @import 'cookies';
 // @import 'fonts';
-// @import 'forms';
-// @import 'geo';
+@import 'forms';
+@import 'geo';
+@import 'web-movil';
+@import 'join-funcy';
+@import 'panel-right';
+@import 'panel-left';
 // @import 'grid';
 // @import 'home';
 // @import 'movies';
 // @import 'nav';
 // @import 'team';
+@import 'footer';
 @import 'typo';
 //
 body {

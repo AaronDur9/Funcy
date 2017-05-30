@@ -1,0 +1,21 @@
+#sidebar-right {
+    background-color: white;
+    text-align: center;
+    h6 {
+        font-weight: bold;
+    }
+    p {
+        font-size: 12px;
+    }
+    .btn {
+        width: 90%;
+        text-align: center;
+        margin-top: 5px;
+        &.fb-btn {
+            background-color: #4CAF50;
+        }
+        &.tw-btn {
+            background-color: #3b5998;
+        }
+    }
+}

@@ -1,9 +1,33 @@
+.info {
+    //background-color: $primary-color;
+    ul {
+        list-style: none;
+        //display: inline-block;
+        li {
+            //color: $inverse-color;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+    }
+    //     .footer-copyright {
+    //     text-align: right;
+    //     mark {
+    //         background-color: transparent;
+    //         color: $inverse-color;
+    //     }
+    //     time {
+    //         color: $inverse-color;
+    //         margin-right: 15px;
+    //     }
+    // }
+}
+
 .footer {
-    background-color: $primary-color;
+    //background-color: $primary-color;
     .footer-item {
         display: inline-block;
         a {
-            color: $inverse-color;
+            //color: $inverse-color;
             text-decoration: none;
             margin-left: 15px;
         }
@@ -12,10 +36,10 @@
         text-align: right;
         mark {
             background-color: transparent;
-            color: $inverse-color;
+            //color: $inverse-color;
         }
         time {
-            color: $inverse-color;
+            //color: $inverse-color;
             margin-right: 15px;
         }
     }

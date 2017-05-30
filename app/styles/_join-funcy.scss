@@ -1,0 +1,22 @@
+#join-funcy {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: #f3f5f7;
+    .btn {
+        width: 200px;
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 25px;
+        i {
+            transition: transform 0.5s;
+            visibility: hidden;
+        }
+        &:hover {
+            i {
+                transform: translateX(15px);
+                visibility: visible;
+            }
+        }
+    }
+}

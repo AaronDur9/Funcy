@@ -1,9 +1,15 @@
-.geo {
-    padding: 0;
-    iframe {
-        border: 0;
-        width: 100vw;
-        height: 50vh;
-        pointer-events: none;
-    }
+#sectionMap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 850px;
+    background-color: #f3f5f7;
+    // width: 700px;
+}
+
+#map {
+    margin-top: 50px;
+    height: 80%;
+    width: 100%;
+    pointer-events: none;
 }
