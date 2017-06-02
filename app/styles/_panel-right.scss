@@ -1,4 +1,9 @@
 #sidebar-right {
+    @include mobile {
+        & {
+            visibility: hidden;
+        }
+    }
     background-color: white;
     text-align: center;
     h6 {
@@ -8,9 +13,9 @@
         font-size: 12px;
     }
     .btn {
-        width: 90%;
+        width: 100%;
         text-align: center;
-        margin-top: 5px;
+        margin-bottom: 5px;
         &.fb-btn {
             background-color: #4CAF50;
         }

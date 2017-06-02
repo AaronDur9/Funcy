@@ -1,3 +1,17 @@
+#main-nav {
+    background-color: white;
+    .navbar-left {
+        width: 45%;
+    }
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
+        a:hover {
+            text-decoration: none;
+        }
+    }
+}
+
 body {
     background-color: #f3f5f7;
 }

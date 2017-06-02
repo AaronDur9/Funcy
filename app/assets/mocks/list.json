@@ -6,9 +6,9 @@
     "currency": "USD",
     "images": {
         "lg": [
-            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=a",
-            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=b",
-            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=c"
+            "../assets/img/ninja-developer.PNG",
+            "../assets/img/ninja-developer.PNG",
+            "../assets/img/ninja-developer.PNG"
         ],
         "md": [
             "http://dummyimage.com/600x600/cccccc/ffffff.png&text=a",
@@ -183,6 +183,32 @@
 }, {
     "id": "8",
     "name": "Hamilton Large Leather Tote by MICHAEL Michael Kors",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+    "price": "358",
+    "currency": "USD",
+    "images": {
+        "lg": [
+            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=a",
+            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=b",
+            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=c"
+        ],
+        "md": [
+            "http://dummyimage.com/600x600/cccccc/ffffff.png&text=a",
+            "http://dummyimage.com/600x600/cccccc/ffffff.png&text=b",
+            "http://dummyimage.com/600x600/cccccc/ffffff.png&text=c"
+        ],
+        "xs": [
+            "http://dummyimage.com/300x300/cccccc/ffffff.png&text=a",
+            "http://dummyimage.com/300x300/cccccc/ffffff.png&text=b",
+            "http://dummyimage.com/300x300/cccccc/ffffff.png&text=c"
+        ]
+    },
+    "created_at": 1424028980,
+    "likes": 13412,
+    "liked": false
+}, {
+    "id": "9",
+    "name": "Anthanh Maister",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
     "price": "358",
     "currency": "USD",

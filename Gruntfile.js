@@ -49,12 +49,12 @@ module.exports = function(grunt) {
                 ],
                 tasks: ['sass', 'autoprefixer']
             },
-            jshint: {
-                files: [
-                    '<%= appConfig.app %>/**/*.js'
-                ],
-                tasks: ['jshint', 'includeSource:server']
-            },
+            // jshint: {
+            //     files: [
+            //         '<%= appConfig.app %>/**/*.js'
+            //     ],
+            //     tasks: ['jshint', 'includeSource:server']
+            // },
             html: {
                 files: ['<%= appConfig.app %>/**/*.html'],
                 tasks: ['includeSource:server']
@@ -104,18 +104,19 @@ module.exports = function(grunt) {
             }
         },
 
-        jshint: {
-            options: {
-                jshintrc: '.jshintrc',
-                reporter: require('jshint-stylish')
-            },
-            all: {
-                src: [
-                    'Gruntfile.js',
-                    '<%= appConfig.app %>/**/*.js'
-                ]
-            }
-        },
+        // jshint: {
+        //     options: {
+        //         jshintrc: '.jshintrc',
+        //         reporter: require('jshint-stylish')
+        //     },
+        //     all: {
+        //         src: [
+        //             'Gruntfile.js',
+        //             '<%= appConfig.app %>/**/*.js'
+        //         ]
+        //     }
+        // },
+
 
         sass: {
             options: {
@@ -262,7 +263,8 @@ module.exports = function(grunt) {
 
     // default task
     grunt.registerTask('default', [
-        'jshint',
+        // 'jshint',
+
         'build'
     ]);
 

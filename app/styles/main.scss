@@ -7,24 +7,21 @@
 @import 'main-page';
 @import 'items';
 @import 'about-us';
-// @import 'cookies';
-// @import 'fonts';
+@import 'modal';
 @import 'forms';
 @import 'geo';
 @import 'web-movil';
 @import 'join-funcy';
 @import 'panel-right';
 @import 'panel-left';
-// @import 'grid';
-// @import 'home';
-// @import 'movies';
-// @import 'nav';
-// @import 'team';
 @import 'footer';
 @import 'typo';
-//
 body {
     font-size: 16px;
     font-family: Lato, Helvetica, sans-serif;
     margin: 0;
+}
+
+main {
+    margin-top: 120px;
 }

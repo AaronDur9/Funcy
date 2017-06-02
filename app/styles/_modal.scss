@@ -1,0 +1,38 @@
+.modal-content {
+    //     @include mobile {
+    //     & {
+    //         visibility: hidden;
+    //     }
+    // }
+    picture, img {
+        margin: 2px;
+        width: 100%;
+    }
+    h6 {
+        font-weight: bold;
+    }
+    p {
+        font-size: 10px;
+    }
+    .buy-panel {
+        margin-left: 35px;
+        //padding-left: 50px;
+        background-color: grey;
+        text-align: center;
+        h6 {
+            font-weight: bold;
+        }
+        .btn {
+            width: 100%;
+            // text-align: left;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            &.fb-btn {
+                background-color: #4CAF50;
+            }
+            &.tw-btn {
+                background-color: #3b5998;
+            }
+        }
+    }
+}

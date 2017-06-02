@@ -9,13 +9,20 @@
     }
     .about-intro {
         margin-top: 20px;
-        h3 {
+        h2, h3 {
             text-align: center;
+            span {
+                font-weight: bold;
+            }
+        }
+        p {
+            font-size: 10px;
         }
         .funcy-features {
             article {
                 text-align: center;
                 img {
+                    max-width: 200px;
                     // text-align: center;
                     width: 60%;
                     height: 200px;

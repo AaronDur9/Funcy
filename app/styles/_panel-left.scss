@@ -1,7 +1,22 @@
 #panel-left {
+    @include tablet {
+        & {
+            .affix {
+                position: static;
+            }
+            ul {
+                li {
+                    display: inline;
+                }
+            }
+        }
+    }
     ul {
         list-style: none;
+        padding: 0px;
         li {
+            padding: 0px;
+            //padding-left: 10px;
             span {
                 margin-right: 10px;
             }

@@ -19,14 +19,18 @@
     <meta name="msapplication-TileImage" content="assets/icons/favicona.ico">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="icon" href="assets/icons/favicona.ico">
+    <!-- <link rel="icon" href="assets/icons/favicona.ico"> -->
+    <link rel="icon" href="assets/icons/keep-coding.jpg">
+
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
-    <title>Funcy</title>
-
+    <title>Fanthanh</title>
+    <link href="https://fonts.google.com/specimen/Nunito?selection.family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Oswald:200,300,400,500,600,700" rel="stylesheet">
+
     <!-- bower:css -->
     <!-- endbower -->
 
@@ -43,118 +47,245 @@
     <![endif]-->
 
 
-
-    <nav class="navbar navbar-default">
+    <!-- Barra de navegación -->
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"></span>-->
+
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1 ">
+                <form class="navbar-form navbar-left ">
+                    <div class="form-group ">
+                        <input type="text " class="form-control " placeholder="Search Fanthanh">
+
                     </div>
                 </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <button type="button" class="btn btn-default btn-md">
-                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
 
-                    </button>
+                <div class="navbar-form navbar-brand ">
+                    <a href="#"><h5>FANTHANH</h5></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Language <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li class="active"><a href="#">Anthanhnes</a></li>
+                            <li><a href="#">Talaverano</a></li>
+                            <li><a href="#">Extremeño</a></li>
+                            <li><a href="#">Inglés</a></li>
                         </ul>
                     </li>
-                    <!-- <span class="glyphicon glyphicon-cart" aria-hidden="true"></span>-->
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart " aria-hidden="true "></span></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <main class="container">
 
         <div class="row">
+            <!-- Panel izquierdo-->
+            <section id="panel-left" class="col-xs-12 col-md-3">
+                <div class="sidebar-nav-fixed affix">
 
 
-            <section id="panel-left" class="col-md-3">
-                <header>TRENDING</header>
-                <ul>
+                    <h3>Cosas frikis de esas</h3>
+                    <ul>
+                        <li><span class="glyphicon glyphicon-flash "></span>Me tenéis en Slack</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>¡Tiene buena pinta! ¿Lo has hecho tú?</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Muy chulo, muy chulo...</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Me peta medio planeta</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>¡A mandar!</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Oscar</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Ahhh! Ya veo</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Nos vemos en 20 minutos</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Keep coding</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>¡Y esas cosas!</li>
+                        <li><span class="glyphicon glyphicon-flash "></span>Efecto demo</li>
 
-                    <li> <span class="glyphicon glyphicon-screenshot"></span> A</li>
-                    <li><span class="glyphicon glyphicon-screenshot"></span>B</li>
-                    <li><span class="glyphicon glyphicon-screenshot"></span>C</li>
-                    <li><span class="glyphicon glyphicon-screenshot"></span>D</li>
-                </ul>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Anuncio -->
+
+            <!-- data-toggle="modal" data-target="#myModal"
+ -->
+            <section class="col-xs-12 col-sm-9 col-md-6">
+                <div id="ads" class="row">
+                </div>
+
             </section>
 
 
 
-            <section id="items" class="col-md-5">
-                <div class="panel panel-default panel-product">
-                    <div class="panel-body">
-                        <picture>
-                            <source srcset="http://dummyimage.com/300x300/cccccc/ffffff.png&text=a" media="(max-width: 350px)">
-                            <source srcset="http://dummyimage.com/600x600/cccccc/ffffff.png&text=a" media="(min-width: 351px) and (max-width: 650px)">
-                            <img src="http://dummyimage.com/900x900/cccccc/ffffff.png&text=a" draggable="false" alt="Item">
-                        </picture>
+
+
+            <section id="sidebar-right" class="col-sm-3 col-md-3 panel">
+
+
+                <div class="row ">
+                    <h6 class="col-xs-12 ">Fanthanh is more fun with friends</h6>
+                    <p class="col-xs-12 ">No os lo digo, os lo enseño</p>
+                </div>
+                <div class="row ">
+                    <div class="col-xs-12 ">
+                        <button class="btn fb-btn ">Log in with Facebook</button>
                     </div>
-                    <div class="panel-footer">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit.</p>
-                            <button class="btn btn-primary">1231</button>
-                        </div>
-                        <div class="subtitle">
-                            <button class="btn btn-default">12312</button>
-                        </div>
+                    <div class="col-xs-12 ">
+                        <button class="btn tw-btn ">Log in with Twitter</button>
                     </div>
+
+
                 </div>
 
-
+                <!-- </div> -->
             </section>
-            <section id="sidebar-right" class="col-md-4 panel">
-                <div class="row">
-                    <h6 class="col-xs-12">Funcy es more fun with friends</h6>
-                    <p class="col-xs-12">Log in to see what your friends are up to</p>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <button class="btn fb-btn">Log in with Facebook</button>
-                    </div>
-                    <div class="col-xs-12">
-                        <button class="btn tw-btn">Log in with Twitter</button>
-                    </div>
 
 
-                </div>
-            </section>
+
+
 
         </div>
-    </main>
-    <footer id="footer" class="container-fluid footer">
-        <div class="row">
 
-            <ul class="footer-items col-8">
-                <li class="footer-item">
-                    <a href="http://marvel.com/avengers" target="_blank">website</a>
+
+
+        <!--  Trigger the modal with a button -->
+        <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+        <!-- Modal -->
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <!-- <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body ">
+                        <picture>
+                            <source srcset="http://dummyimage.com/300x300/cccccc/ffffff.png&text=a " media="(max-width: 350px) ">
+                            <source srcset="http://dummyimage.com/600x600/cccccc/ffffff.png&text=a " media="(min-width: 351px) and (max-width: 650px) "><img src="http://dummyimage.com/900x900/cccccc/ffffff.png&text=a " draggable="false " alt="Item "></picture>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="row">
+                                <div class="col-xs-4"><img src="http://dummyimage.com/300x300/cccccc/ffffff.png&text=a " draggable="false " alt="Item "></div>
+                                <div class="col-xs-4"><img src="http://dummyimage.com/300x300/cccccc/ffffff.png&text=b " draggable="false " alt="Item "></div>
+                                <div class="col-xs-4"><img src="http://dummyimage.com/300x300/cccccc/ffffff.png&text=c " draggable="false " alt="Item "></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h6>Golder Clip by X</h6></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-offset-1 col-xs-10 col-md-3 buy-panel">
+                <div class="row">
+                    <h6 class="col-xs-12">Producto</h6>
+                    <p class="col-xs-12">$ Precio </p>
+                    <p class="col-xs-12">$ Aproximación </p>
+                    <div class="col-xs-12 ">
+                        <button class="btn fb-btn ">Añadir al carro</button>
+                    </div>
+                    <div class="col-xs-offset-2 col-xs-8 ">
+                        <button class="btn tw-btn ">Ey, esto mola</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <button class="btn tw-btn ">Compartir</button>
+                    </div>
+                    <div class="col-xs-6 ">
+                        <button class="btn tw-btn ">Lists</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>You may also in Fanthanh</h3>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <img src="http://dummyimage.com/75x75/cccccc/ffffff.png&text=a " draggable="false " alt="Item ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <img src="http://dummyimage.com/75x75/cccccc/ffffff.png&text=n " draggable="false " alt="Item ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <img src="http://dummyimage.com/75x75/cccccc/ffffff.png&text=t " draggable="false " alt="Item ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <img src="http://dummyimage.com/75x75/cccccc/ffffff.png&text=h " draggable="false " alt="Item ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <img src="http://dummyimage.com/75x75/cccccc/ffffff.png&text=a " draggable="false " alt="Item ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="panel panel-default panel-product">
+                    <div class="panel-body">
+                        <img src="http://dummyimage.com/75x75/cccccc/ffffff.png&text=n " draggable="false " alt="Item ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer id="footer " class="container footer ">
+        <div class="row ">
+
+            <ul class="footer-items col-md-8 ">
+                <li class="footer-item ">
+                    <a href="http://marvel.com/avengers " target="_blank ">website</a>
                 </li>
-                <li class="footer-item">
-                    <a href="https://www.facebook.com/avengers/" target="_blank">facebook</a>
+                <li class="footer-item ">
+                    <a href="https://www.facebook.com/avengers/ " target="_blank ">facebook</a>
                 </li>
-                <li class="footer-item">
-                    <a href="https://twitter.com/avengers" target="_blank">twitter</a>
+                <li class="footer-item ">
+                    <a href="https://twitter.com/avengers " target="_blank ">twitter</a>
                 </li>
-                <li class="footer-item">
-                    <a href="https://www.instagram.com/avengersmovie/" target="_blank">instagram</a>
+                <li class="footer-item ">
+                    <a href="https://www.instagram.com/avengersmovie/ " target="_blank ">instagram</a>
                 </li>
             </ul>
 
-            <p class="footer-copyright col-4">
-                <mark>Marvel Studios</mark>
-                <time datetime="2017-01-01">2017</time>
+            <p class="footer-copyright col-md-4 ">
+                <mark>Fanthanh Shop</mark>
+                <time datetime="2017-01-01 ">2017</time>
             </p>
 
         </div>
@@ -171,9 +302,20 @@
     <!-- endbuild -->
 
     <!-- build:js({.,.tmp,app}) scripts/scripts.js -->
-    <!-- include: "type": "js", "files": ["scripts/**/*.js"], "baseUrl": "/" -->
+    <!-- include: "type ": "js ", "files ": ["scripts/**/*.js "], "baseUrl ": "/ " -->
     <!-- endbuild -->
+
+    <script src="scripts/load-adds.js"></script>
+
+
 
 </body>
 
+
 </html>
+
+
+
+
+<!-- Cosas
+ -->
